@@ -1,4 +1,4 @@
-class Alumno {
+export class Alumno {
     constructor(username, DNI) {
       this.username = username;
       this.DNI = DNI;
@@ -7,4 +7,3 @@ class Alumno {
         return `Username: ${this.username}, DNI: ${this.DNI}`;
       }
     }
-  
